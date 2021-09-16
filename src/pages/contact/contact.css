@@ -1,0 +1,54 @@
+.contact {
+  height: 93.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(81, 18, 163, 0.5), rgba(75, 227, 247, 0.37));
+}
+
+.contactForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacth1 {
+  font-size: 70px;
+}
+
+.contactSpan {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.contactForm > label {
+  margin-top: 30px;
+}
+
+.contactInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  width: 83%;
+  margin-top: 5px;
+}
+
+.contactMessage {
+  background-color: white;
+  border: none;
+  width: 83%;
+  padding: 10px;
+  height: 10vh;
+}
+
+.contactButton {
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(39, 147, 214);
+  width: 27%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-left: -70px;
+}
